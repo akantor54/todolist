@@ -1,0 +1,35 @@
+.task {
+  background-color: #333333;
+  min-height: 80px;
+  margin: 5px;
+  padding: 15px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  #done {
+    width: 30px;
+    height: 30px;
+  }
+
+  .important {
+    background-color: #818181;
+  }
+
+  button {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #6b6b6b;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #6b6b6b60;
+  }
+}
+
+.task-fini {
+  background-color: #575757;
+}

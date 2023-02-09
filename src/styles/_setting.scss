@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: "Cabin", sans-serif;
+}
+
+.dark {
+  $primaire: #2c2c2c;
+  $secondaire: #585757;
+  $fontColor: white;
+
+  background-color: $primaire;
+  color: $fontColor;
+}

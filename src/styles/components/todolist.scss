@@ -1,0 +1,15 @@
+.todolist {
+  flex: 3;
+  width: 70%;
+  background-color: #3a3a3a3d;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  scrollbar-color: #353535 #8a8a8a;
+}
+
+@media screen and (max-width: 800px) {
+  .todolist {
+    width: 100vw;
+  }
+}
