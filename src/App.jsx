@@ -7,7 +7,7 @@ import "./styles/index.scss";
 const App = () => {
   return (
     <Provider store={store}>
-      <div className="app dark">
+      <div className="app">
         <h1>Todo List</h1>
         <TodoList />
         <Form />
